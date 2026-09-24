@@ -7,7 +7,7 @@ Built with **FastAPI**, **SQLite**, **React (Vite)**, **Tailwind CSS**, and **Go
 
 ---
 
-## 🌟 Key Features
+## Key Features
 
 1. **Evidence-Grounded Matching**:
    - Compares candidate resumes against target job descriptions strictly based on documented work experience.
@@ -34,7 +34,10 @@ Built with **FastAPI**, **SQLite**, **React (Vite)**, **Tailwind CSS**, and **Go
 
 ---
 
-## 🛠️ Tech Stack
+## Demo Video: https://youtu.be/EPQQTYUob20
+---
+
+##  Tech Stack
 
 - **Frontend**: React 18, TypeScript, Vite, Tailwind CSS
 - **Backend**: FastAPI (Python 3.10+), Pydantic v2, SQLAlchemy, Uvicorn
