@@ -1,0 +1,6 @@
+.env
+*.db
+evaluations.dbnode_modules/
+venv/
+dist/
+__pycache__/
