@@ -34,7 +34,8 @@ Built with **FastAPI**, **SQLite**, **React (Vite)**, **Tailwind CSS**, and **Go
 
 ---
 
-## Demo Video: https://youtu.be/Cje73akv9hI
+## Demo Video: https://vimeo.com/1230112516?share=copy&fl=sv&fe=ci
+https://youtu.be/EPQQTYUob20?si=DLxKXxBtwbaX0NcI
 ---
 
 ##  Tech Stack
