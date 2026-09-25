@@ -34,7 +34,7 @@ Built with **FastAPI**, **SQLite**, **React (Vite)**, **Tailwind CSS**, and **Go
 
 ---
 
-## Demo Video: https://youtu.be/EPQQTYUob20
+## Demo Video: https://youtu.be/Cje73akv9hI
 ---
 
 ##  Tech Stack
@@ -81,45 +81,39 @@ A Google Gemini API Key (from Google AI Studio)
 1. Backend Setup
 Open a terminal and navigate to the backend folder:
 
-Bash
-cd backend
-Create and activate a Python virtual environment:
+## VS Code Terminal
+   cd backend
+   Create and activate a Python virtual environment:
 
-Bash
-# Windows (PowerShell)
-python -m venv venv
-.\venv\Scripts\activate
+   # Windows (PowerShell)
+   python -m venv venv
+   .\venv\Scripts\activate
 
-# macOS / Linux
-python3 -m venv venv
-source venv/bin/activate
-Install required packages:
+   # macOS / Linux
+   python3 -m venv venv
+   source venv/bin/activate
+   Install required packages:
 
-Bash
-pip install -r requirements.txt
-Configure your environment variables:
 
-Create a .env file in the backend/ directory:
+   pip install -r requirements.txt
+   Configure your environment variables:
 
-Code snippet
-GEMINI_API_KEY=your_actual_gemini_api_key_here
-Start the FastAPI development server:
+## Create a .env file in the backend/ directory:
 
-Bash
-uvicorn main:app --reload --port 8000
-The backend will be live at http://localhost:8000. Interactive API documentation is available at http://localhost:8000/docs.
+   GEMINI_API_KEY=your_actual_gemini_api_key_here
+   Start the FastAPI development server:
+
+   python -m uvicorn main:app --reload --port 8000
+   The backend will be live at http://localhost:8000. Interactive API documentation is available at http://localhost:8000/docs.
 
 2. Frontend Setup
 Open a new terminal and navigate to the frontend directory:
 
-Bash
-cd frontend
-Install dependencies:
+## VS Code Terminal
+   cd frontend
+   Install dependencies:
+   npm install
+   Start the Vite development server:
 
-Bash
-npm install
-Start the Vite development server:
-
-Bash
-npm run dev
-The frontend dashboard will run at http://localhost:5173.
+   npm run dev
+   The frontend dashboard will run at http://localhost:5173.
